@@ -43,6 +43,8 @@ It has these top-level messages:
 	ContainerRestartPolicy
 	TaskLogsRequest
 	TaskLogsChunk
+	EmptyReply
+	DiscoverHubRequest
 	TaskResourceRequirements
 	Timestamp
 	MinerInfoRequest
@@ -50,6 +52,7 @@ It has these top-level messages:
 	MinerHandshakeReply
 	MinerStartRequest
 	MinerStartReply
+	TaskInfo
 	MinerStatusMapRequest
 */
 package sonm
